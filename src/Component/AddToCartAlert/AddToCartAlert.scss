@@ -1,0 +1,75 @@
+.gotocart {
+    //styleName: Desktop (lg = <1440px)/Heading 5;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.5px;
+    text-align: left;
+    color: #5D1CAA;
+    text-decoration: none;
+}
+
+.alert-container {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 999999999999999999999;
+    animation: slide-down 0.5s ease-out forwards, slide-up 0.5s ease-in 2.5s forwards;
+    /* Adjust the timing as needed */
+
+}
+
+@keyframes slide-down {
+    0% {
+        transform: translate(-50%, -100px);
+        // opacity: 0;
+    }
+
+    100% {
+        transform: translate(-50%, 0);
+        // opacity: 1;
+    }
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translate(-50%, 0);
+        // opacity: 1;
+    }
+
+    100% {
+        transform: translate(-50%, -100px);
+        // opacity: 0;
+    }
+}
+
+.alert {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+
+    .filled-fav-icon {
+        font-size: 20px;
+        color: #108548;
+    }
+
+    p {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 0 !important;
+        text-align: left;
+        color: #111111;
+    }
+
+    .close-btn {
+        cursor: pointer;
+    }
+}

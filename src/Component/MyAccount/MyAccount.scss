@@ -1,0 +1,21 @@
+.MyAccountMainWrapper {
+    .my-account {
+        margin-top: 7rem;
+        display: flex;
+
+        .my-ac-left {
+            position: sticky;
+            top: 7rem;
+            padding-top: 1rem;
+            width: 20%;
+            max-height: 100vh;
+            // background-color: red;
+        }
+
+        .my-ac-right {
+            width: 80%;
+            padding: 2rem;
+            max-height: 2000px;
+        }
+    }
+}

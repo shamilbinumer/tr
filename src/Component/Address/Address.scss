@@ -1,0 +1,106 @@
+.AddressPageMainWrapper {
+    .address-section {
+        .address-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            h2 {
+                //styleName: Desktop (lg = <1440px)/Heading 2;
+                font-family: Roboto;
+                font-size: 21px;
+                font-weight: 600;
+                line-height: 26.25px;
+                text-align: left;
+                color: #111111;
+            }
+
+            button {
+                background-color: #5D1CAA;
+                border: 1px solid #5D1CAA;
+                color: white;
+                padding: 10px 20px;
+                //styleName: Desktop (lg = <1440px)/Heading 5;
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 17.5px;
+                border-radius: 10px;
+
+            }
+        }
+
+        .address-cards-main {
+            padding-top: 2rem;
+
+            .address-card {
+                width: 100%;
+                border: 1px solid #F3F3F3;
+                border-radius: 4px;
+                padding: 1rem;
+                margin-bottom: 1rem;
+
+                .card-header {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .addressType {
+                        font-family: Roboto;
+                        font-size: 12px;
+                        font-weight: 600;
+                        line-height: 19.2px;
+                        background: #FAFAFA;
+                        border-radius: 999px;
+                        margin-right: 10px;
+                        border: none;
+                        padding: 2px 8px;
+                    }
+
+                    .active-address {
+                        background: #F2E8FF;
+                        color: #5D1CAA;
+                    }
+
+                    .edit-btn {
+                        border: none;
+                        background-color: transparent;
+                        color: #5D1CAA;
+                        font-family: Roboto;
+                        font-size: 14px;
+                        font-weight: 600;
+                        line-height: 16.8px;
+                        letter-spacing: 0.02em;
+
+                    }
+
+                    .menu-dot {
+                        font-size: 24px;
+                        color: #787878;
+                    }
+                }
+
+                .card-title {
+                    font-family: Roboto;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 17.5px;
+                    text-align: left;
+                    color: #111111;
+                    padding-top: 10px;
+                }
+
+                p {
+                    font-family: Roboto;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 17.5px;
+                    text-align: left;
+                    font-variation-settings: 'wdth' 100, 'opsz' 14;
+                    color: #111111;
+                    margin-top: 5PX;
+                    margin-bottom: 0 !important;
+                }
+            }
+        }
+    }
+}
